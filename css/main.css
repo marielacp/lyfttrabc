@@ -1,0 +1,412 @@
+/*
+ * Estilos de tu proyecto
+ Botones, hover: `#FF00BF`
+  - Fondo de `footer`: `#333447`
+  - Título del formulario: `#352384`
+  - Texto del formulario: `#728099`
+  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
+ */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/**************style for nav********************/
+
+#header{
+     background-image:url(../assets/images/hero.gif);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     height:560px;
+     width: 100%;
+}
+
+nav{
+  position: fixed;
+  top:0%;
+  width: 100%;
+  z-index: 10000;
+  height: 20%;
+/*background-color: red;*/
+  
+}
+
+.img-main{
+   width: 70px;
+   height: 50px;
+   display: inline-block;
+   margin-left: 5%;
+}
+
+.list-main{
+   list-style: none;
+   /*outline: 2px solid red;*/
+   position: absolute;
+   top:0%;
+   left:50%;
+   width: 60%;
+   
+}
+
+.list-main li{
+   display:inline-block;
+   font-size: 25px;
+  margin: 4%;
+  color: rgb(204, 95, 95);
+  
+
+}
+
+.button-main{
+box-sizing: border-box;
+font-size: 25px;
+border-radius: 8px;
+border: 1px solid #fff;
+outline: none;
+background-color: transparent;
+padding: 5%;
+width: 100px;
+color: white;
+
+}
+
+.enlace-main{
+text-decoration: none;
+color: white;
+
+}
+
+/***********************section-1******************/
+
+.cont-section-1{
+width: 40%;
+position: absolute;
+/*outline: 3px solid red;*/
+left: 65%;
+top:20%;
+background-color: white;
+padding:0% 5% 5%;
+
+}
+
+
+.list-section-1{
+    font-size: 45px;
+    color: rgb(25, 25, 102);
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;  
+  /*  outline: 3px solid red;*/
+    padding: 0;
+  
+     
+}
+
+.list-section-1-1 {
+font-size: 16px;
+
+   }
+
+input  {
+outline: none;
+border:0;
+   }
+
+
+.button-1{
+   background-color: #ff00bf;
+   color: white;
+   padding: 2%;
+   font-size: 20px;
+   border-radius: 10px;
+}
+.button-2{
+    border-style: none;
+    font-size: 18px;
+    background-color: transparent;
+    
+}
+.date-form{
+    font-size: 10px;
+    color:#728099
+}
+
+.date-form a{
+    color:#ff00bf;
+}
+
+
+
+/*****************section 2******************/
+
+
+.cont-section-2{
+  
+    background:linear-gradient(#76278F, #2B1E66);
+    width: 100%;
+    height: 550px;
+    display: relative;
+    overflow: hidden;
+
+
+}
+
+.cont-section-2-date{
+    float: left;
+    padding-left:6%;
+    padding-top: 3%;
+    color: white;
+    
+  
+}
+.h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height:50px;
+}
+
+.cont-section-2-date p {
+    font-size: 15px;
+  
+    line-height: 15px;
+   
+}
+
+.section-phone img{
+    width: 400px;
+    height: auto;
+ /*   outline: 2px solid red;*/
+   
+    }
+
+.h3{
+ color: white;
+ line-height: 4px;
+ font-size: 20px;
+ text-transform: uppercase;
+ padding-top: 3%;
+}
+
+
+/*************section 3*********/
+
+.cont-section-3{
+  width: 100%;
+  height: 550px;
+  background-color: white;
+  color:#333447;
+  position: relative;
+}
+
+.section-3-1{
+ /*   outline: 3px solid red;*/
+    width: 30%;
+    padding: 2.5%;
+    box-sizing: border-box;
+    text-align: justify;
+ 
+  
+}
+
+.section-3-1-h1{
+
+ text-transform: uppercase;
+ line-height: 5px;
+ font-size: 29px;
+ box-sizing: border-box;
+
+}
+.section-3-1-h3{
+text-transform: uppercase;
+font-size: 16px;
+    
+}
+.section-3-1-p p{
+    width: 320px;
+    font-size: 16px;
+   /* outline: 2px solid red;*/
+    line-height: 25px;
+}
+
+.section-3-2{
+ /*    outline: 3px solid rgb(55, 0, 255);*/
+     display: inline;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 60%;
+     
+}
+
+.frame-video-1{
+    width: 100%;
+    height: 550px;
+    
+}
+/**************************section 4************************/
+.section-4-1 {
+    /*   outline: 3px solid red;*/
+    width: 30%;
+    padding: 3%;
+    box-sizing: border-box;
+    top: 0%;
+    left: 70%;
+    position:absolute;
+}
+
+
+    .section-4-2 {
+  /*  outline: 3px solid rgb(55, 0, 255);*/
+    display: inline;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 70%;
+}
+
+
+
+
+
+
+/**************Style for footer****************************/
+
+
+.contenedor-footer-1 {
+    background-color:#333447;
+    width: 100%;  
+    height: 300px; 
+    overflow: hidden;
+    margin-top:10%;
+ /*   outline: 3px solid rgb(103, 94, 221);*/
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.footer {
+line-height: 33px;
+list-style: none;
+color:white;
+/*outline: 3px solid rgb(127, 175, 14);*/
+float: left;
+margin-left: 10%;
+text-align: left;
+margin-top: 5%
+}
+
+.footer-img {
+    line-height: 33px;
+    list-style: none;
+    color: white;
+ /*  outline: 3px solid rgb(127, 175, 14);*/
+    float: left;
+    margin-left: 29%;
+    text-align: left;
+    margin-top: 5%
+}
+
+.name.footer{
+    text-align: center;
+}
+
+.list-footer {
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+
+figure {
+left: 50%;
+display:block;
+
+}
+
+figure img{
+    width: 130px;
+}
+
+.foot-hipv{
+   text-decoration: none;
+   color: white;
+}
+
+.footer-hipv {
+    text-decoration: none;
+    color: white;
+}
+
+
+.foot-hipv:hover{
+color: #EA0E89;
+text-decoration: underline;
+
+
+}
+
+/**************footer2***********************/
+
+.contein-footer-2{
+background-color:#333447;
+width: 100%;
+
+/*outline: 3px solid rgb(103, 94, 221);*/
+
+
+}
+.footer-2{
+ 
+ width: 60%;
+ /*outline: 3px solid rgb(103, 94, 221);*/
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.list-footer-2 {
+list-style: none;
+margin: 0;
+padding: 0;
+line-height: 30px;
+color: white;
+text-align: center;
+
+}
+
+.list-footer-2 li {
+    
+    display: inline-block;
+    margin: 2%;
+}
+
+
+.list-footer-2 li i {
+border: 1px solid white;
+border-radius: 100%;
+margin-left: 4px;
+width: 40px;
+height: 40px;
+box-sizing: border-box;
+padding-top: 11px;
+padding-left: 2px;
+
+
+}
+
+.footer-finish{
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+.footer-finish{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 600px;
+}
